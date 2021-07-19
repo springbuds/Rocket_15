@@ -1,6 +1,6 @@
 public class Answer {
-    int AnswerID;
-    String Content;
-    Question Question;
-    boolean isCorrect;
+    int id;
+    String content;
+    Question question;
+    Boolean isCorrect;
 }

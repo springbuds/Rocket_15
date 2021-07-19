@@ -1,4 +1,4 @@
 public class Position {
-    int PositionID;
-    String PositionName;
+    int id;
+    String name;
 }

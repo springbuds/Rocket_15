@@ -1,8 +1,9 @@
-import java.sql.Date;
+import java.time.LocalDate;
 
 public class Group {
-    int GroupID;
-    String GroupName;
-    Account Creator;
-    Date CreateDate;
+    int id;
+    String name;
+    Account[] accounts;
+    LocalDate createDate;
 }
+

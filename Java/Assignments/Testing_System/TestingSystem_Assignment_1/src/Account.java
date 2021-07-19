@@ -1,12 +1,13 @@
-import java.sql.Date;
+import java.time.LocalDate;
+import java.util.Arrays;
 
 public class Account {
-    int AccountID;
-    String Email;
-    String Username;
-    String FullName;
-    Department Department;
-    Position Position;
-    Date CreateDate;
+    int id;
+    String email;
+    String username;
+    String fullname;
+    Department department;
+    Position position;
+    LocalDate createDate;
     Group[] groups;
 }

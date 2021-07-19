@@ -1,4 +1,4 @@
 public class Department {
-    int DepartmentID;
-    String DepartmentName;
+    int id;
+    String name;
 }

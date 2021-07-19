@@ -1,11 +1,11 @@
-import java.sql.Date;
+import java.time.LocalDate;
 
 public class Question {
-    int QuestionID;
-    String Content;
-    CategoryQuestion Category;
-    TypeQuestion Type;
-    int CreatorID;
-    Date CreateDate;
-    Exam[] exams;
+    int id;
+    String content;
+    CategoryQuestion categoryQuestion;
+    TypeQuestion typeQuestion;
+    Account account;
+    LocalDate createDate;
+
 }

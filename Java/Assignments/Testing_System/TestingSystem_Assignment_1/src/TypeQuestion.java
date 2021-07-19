@@ -1,4 +1,5 @@
 public class TypeQuestion {
-    int TypeID;
-    String TypeName;
+    int id;
+    String typeName;
+
 }
